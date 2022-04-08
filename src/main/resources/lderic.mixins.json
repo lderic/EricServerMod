@@ -1,0 +1,6 @@
+{
+  "package": "com.lderic.mixins",
+  "mixins": [
+    "MinecraftDedicatedServerMixin"
+  ]
+}

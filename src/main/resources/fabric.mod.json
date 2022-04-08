@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lderic",
+  "version": "1.0",
+  "name": "Eric's server mod",
+  "authors": [
+    "Eric"
+  ],
+  "entrypoints": {
+    "server": [
+      "com.lderic.EntryPoint"
+    ]
+  },
+  "mixins": [
+    "lderic.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.16.x"
+  }
+}
