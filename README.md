@@ -1,0 +1,3 @@
+# EricServerMod
+
+Simple server mod
