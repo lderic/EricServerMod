@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:netherite_chestplate"
+    },
+    "result": "minecraft:elytra",
+    "experience": 20,
+    "cookingtime": 600
+}
