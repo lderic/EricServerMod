@@ -14,7 +14,7 @@ public class ServerPlayerEntityMixin {
     public void playerDeathPosition(DamageSource damageSource, CallbackInfo ci){
         ServerPlayerEntity player = (ServerPlayerEntity) (Object) this;
         if (player != null) {
-
+            Mod.INSTANCE.onDeath(player);
         }
     }
 }
