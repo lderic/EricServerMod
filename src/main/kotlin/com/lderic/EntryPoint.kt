@@ -2,8 +2,8 @@ package com.lderic
 
 import net.fabricmc.api.DedicatedServerModInitializer
 
-object EntryPoint : DedicatedServerModInitializer {
+class EntryPoint : DedicatedServerModInitializer {
     override fun onInitializeServer() {
-        TODO("Not yet implemented")
+        Mod.init()
     }
 }
