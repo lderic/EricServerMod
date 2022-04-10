@@ -1,6 +1,7 @@
 {
   "package": "com.lderic.mixins",
   "mixins": [
-    "MinecraftDedicatedServerMixin"
+    "MinecraftDedicatedServerMixin",
+    "PlayerManagerMixin"
   ]
 }
